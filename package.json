@@ -42,6 +42,6 @@
   "scripts": {
     "start": "cd www && nodemon server.js",
     "dev": "webpack --watch --mode development",
-    "prod": "webpack  --mode production",
+    "prod": "webpack  --mode production"
   }
 }
