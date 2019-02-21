@@ -89,7 +89,7 @@ class App extends React.Component {
                                 isPost:true
                             });
                         })
-                }, 'image/jpeg', 1);
+                }, 'image/jpeg', 0.25);
             },
                 reader.onerror = error => console.log(error);
         };
